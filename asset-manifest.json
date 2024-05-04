@@ -1,17 +1,22 @@
 {
   "files": {
     "main.css": "/31ombr/static/css/main.d69466c5.css",
-    "main.js": "/31ombr/static/js/main.2306298c.js",
+    "main.js": "/31ombr/static/js/main.04e14276.js",
     "static/js/453.44ea9529.chunk.js": "/31ombr/static/js/453.44ea9529.chunk.js",
-    "static/media/warfield.jpg": "/31ombr/static/media/warfield.4b5b988f5e0e93f52e9b.jpg",
+    "static/media/soldiers.jpg": "/31ombr/static/media/soldiers.104e5b16beb68b237e1b.jpg",
+    "static/media/dron.jpg": "/31ombr/static/media/dron.147a06b0686d0a72646f.jpg",
+    "static/media/warfire-flowers.jpg": "/31ombr/static/media/warfire-flowers.b459347965c35f093819.jpg",
+    "static/media/bmwithflag.jpg": "/31ombr/static/media/bmwithflag.ec066d2d575477bc7119.jpg",
+    "static/media/fire-sparks.jpg": "/31ombr/static/media/fire-sparks.4ba76bb99b0938804e27.jpg",
+    "static/media/green_smoke_background.jpg": "/31ombr/static/media/green_smoke_background.9e1f9faa60996e06cd0e.jpg",
     "static/media/mainLogo.svg": "/31ombr/static/media/mainLogo.99d2975518179f57e61709f3e05964c3.svg",
     "index.html": "/31ombr/index.html",
     "main.d69466c5.css.map": "/31ombr/static/css/main.d69466c5.css.map",
-    "main.2306298c.js.map": "/31ombr/static/js/main.2306298c.js.map",
+    "main.04e14276.js.map": "/31ombr/static/js/main.04e14276.js.map",
     "453.44ea9529.chunk.js.map": "/31ombr/static/js/453.44ea9529.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d69466c5.css",
-    "static/js/main.2306298c.js"
+    "static/js/main.04e14276.js"
   ]
 }
