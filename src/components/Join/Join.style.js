@@ -1,7 +1,8 @@
 import styled from "styled-components";
 import { theme } from "../../vars";
+import { Link } from "react-router-dom";
 
-export const Button = styled.button`
+export const JoinLink = styled(Link)`
   background-color: ${theme.color.summer};
   color: ${theme.color.dark};
   font-size: 20px;
@@ -10,4 +11,5 @@ export const Button = styled.button`
   border-radius: 2px;
   border: none;
   cursor: pointer;
+  transition: .5s;
 `;

@@ -13,6 +13,13 @@ export const Hd = styled.header`
   z-index: 2;
 `;
 
+export const LogoWrap = styled.div`
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+`
+
 export const HeaderContent = styled.div`
   display: flex;
   align-items: center;
@@ -41,6 +48,30 @@ export const MainLink = styled(Link)`
     font-size: 24px;
   }
 `;
+
+export const Nav = styled.nav`
+display: none;
+@media (min-width: ${theme.breakpoint.md}) {
+  display: block;
+}
+`
+
+export const NavList = styled.ul`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  font-size: 24px;
+`;
+export const ListItem = styled.li`
+:hover{
+  color: ${theme.color.summer};
+}
+`
+export const HeaderLink = styled.a`
+color: ${theme.color.light_summer};
+transition: 0.5s;
+`
 
 export const SpanName = styled.span`
   display: block;

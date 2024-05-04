@@ -1,18 +1,14 @@
 export const theme = {
     color: {
-      main: "#101828",
-      button: "#E44848",
-      button_hover: "#d84343",
-      rating: "#FFC531",
-      inputs: "#F7F7F7",
-      block_features: "#F2F4F7",
       light: "#FFE4DE",
       white: "#fff",
+      button_light_hover: "#f5cd51",
 
       weed: "#6B633B",
       text: "#F5F5F5",
       alligator: "#3C3C05",
-      dark: "#1D2525",
+      dark: "#151a1a",
+      light_summer: "#f5eaca",
       summer: "#F2B807",
       sapphire: "#0452b9"
     },

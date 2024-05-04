@@ -1,11 +1,13 @@
 import styled from "styled-components";
 import { theme } from "../../vars";
 import { Link } from "react-router-dom";
+import fireSparks from "../../assets/fire-sparks.jpg"
 
 export const FooterMain = styled.footer`
   width: 100%;
   height: 150px;
   background-color: #151a1a;
+  /* background-image: url(${fireSparks}); */
 `;
 export const ContentWrap = styled.div`
   display: flex;
@@ -18,7 +20,7 @@ export const LinkTel = styled.a`
   gap: 8px;
   color: ${theme.color.text};
   :hover {
-    background-color: #f5eaca;
+    background-color: ${theme.color.light_summer};
   }
 `;
 export const IconWrap = styled.div`
@@ -33,7 +35,7 @@ export const IconWrap = styled.div`
 `;
 export const HoverLink = styled(Link)`
   :hover {
-    background-color: #f5eaca;
+    background-color: ${theme.color.light_summer};
   }
 `;
 export const Contacts = styled.div`
