@@ -14,11 +14,11 @@ export const Hd = styled.header`
 `;
 
 export const LogoWrap = styled.div`
-display: flex;
-align-items: center;
-justify-content: center;
-gap: 10px;
-`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+`;
 
 export const HeaderContent = styled.div`
   display: flex;
@@ -50,11 +50,11 @@ export const MainLink = styled(Link)`
 `;
 
 export const Nav = styled.nav`
-display: none;
-@media (min-width: ${theme.breakpoint.md}) {
-  display: block;
-}
-`
+  display: none;
+  @media (min-width: ${theme.breakpoint.md}) {
+    display: block;
+  }
+`;
 
 export const NavList = styled.ul`
   display: flex;
@@ -64,14 +64,14 @@ export const NavList = styled.ul`
   font-size: 24px;
 `;
 export const ListItem = styled.li`
-:hover{
-  color: ${theme.color.summer};
-}
-`
+  :hover {
+    color: ${theme.color.summer};
+  }
+`;
 export const HeaderLink = styled.a`
-color: ${theme.color.light_summer};
-transition: 0.5s;
-`
+  color: ${theme.color.light_summer};
+  transition: 0.5s;
+`;
 
 export const SpanName = styled.span`
   display: block;
@@ -95,5 +95,8 @@ export const ButtonWrap = styled.div`
   display: none;
   @media (min-width: ${theme.breakpoint.md}) {
     display: block;
+    :hover {
+      background-color: ${theme.color.button_light_hover};
+    }
   }
 `;

@@ -28,7 +28,7 @@ export const List = styled.ul`
   justify-content: center;
   flex-direction: column;
   width: max-content;
-  margin: 50px auto 0;
+  margin: 50px auto;
   font-size: 24px;
 `;
 

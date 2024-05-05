@@ -51,6 +51,9 @@ export const BattonWrap = styled.div`
   bottom: 20%;
   left: 10%;
   filter: drop-shadow(2px 4px 6px black);
+  :hover {
+    background-color: ${theme.color.button_light_hover};
+  }
   @media (min-width: ${theme.breakpoint.md}) {
     display: none;
   }

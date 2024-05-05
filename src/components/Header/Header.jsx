@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Img } from "react-image";
 import {
   Contacts,
@@ -17,17 +17,25 @@ import {
 } from "./Header.style.js";
 import logo from "../../assets/mainLogo.svg";
 import Join from "../Join/Join.jsx";
+import Sidebar from "../Sidebar/Sidebar.jsx";
 function Header() {
+const [isMenuOpen, setIsMenuOpen] = useState(false)
+
   const Callto = ({ phone, children }) => {
     return <LinkTel href={`tel:${phone}`}>{children}</LinkTel>;
   };
+  const handleClickOnMenu = () => {
+    setIsMenuOpen(!isMenuOpen)
+  }
 
   return (
+    <>
+    {isMenuOpen && <Sidebar handleClickClose={handleClickOnMenu}/>}
     <Hd>
       <div className="container">
         <HeaderContent>
           <LogoWrap>
-          <Menu />
+          <Menu onClick={handleClickOnMenu}/>
           <MainLink to={"/"}>
             <Img src={logo} style={{ width: "44px", height: "50px" }} />
           </MainLink>
@@ -59,6 +67,7 @@ function Header() {
         </HeaderContent>
       </div>
     </Hd>
+    </>
   );
 }
 

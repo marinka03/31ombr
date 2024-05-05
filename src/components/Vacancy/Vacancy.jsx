@@ -23,7 +23,6 @@ function Vacancy({ vacancyData }) {
         <HightImgWrap>
           <HightImg src={warfire} alt="Soldier" />
         </HightImgWrap>
-        {/* <ListWrapper> */}
         <List>
           {categorys.map((item, idx) => (
             <Item key={idx}>
@@ -32,7 +31,6 @@ function Vacancy({ vacancyData }) {
             </Item>
           ))}
         </List>
-        {/* </ListWrapper> */}
         <LowerImgWrap>
           <LowerImg src={dron} alt="Soldier" />
         </LowerImgWrap>
