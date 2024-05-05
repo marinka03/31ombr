@@ -37,7 +37,7 @@ export const Title = styled.h2`
     font-size: 7em;
   }
 `;
-export const LinkTel = styled.a`
+export const LinkSpecial = styled.a`
   display: flex;
   align-items: center;
   gap: 8px;

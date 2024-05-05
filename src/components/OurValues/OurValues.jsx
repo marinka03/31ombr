@@ -3,12 +3,10 @@ import {
   Section,
   Content,
   List,
-  JoinWrapper,
   Title,
   ThirdTitle,
-  Text
+  Text,
 } from "./OurValues.style";
-import Join from "../Join";
 
 function OurValues({ ourValuesData }) {
   const { categorys, title } = ourValuesData;
@@ -27,9 +25,6 @@ function OurValues({ ourValuesData }) {
               </li>
             ))}
           </List>
-          <JoinWrapper>
-            <Join />
-          </JoinWrapper>
         </Content>
       </div>
     </Section>

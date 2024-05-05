@@ -1,14 +1,15 @@
 import styled from "styled-components";
 import { IoMdClose } from "react-icons/io";
 import { theme } from "../../vars";
-import { Link } from "react-router-dom";
 
 export const Menu = styled.div`
   width: 100%;
-  background-color: #000;
+  background-color: ${theme.color.dark_green};
+  transition: left 1s ease-in-out 0s;
   position: fixed;
   z-index: 3;
   top: 0px;
+  left: -100%;
   bottom: 0px;
 `;
 

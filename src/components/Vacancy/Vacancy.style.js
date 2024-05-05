@@ -13,15 +13,6 @@ export const Title = styled.h2`
   text-align: center;
   color: ${theme.color.light_summer};
 `;
-// export const ListWrapper = styled.div`
-// width: 100%;
-//   ::before{
-//     content: '';
-//     width: 30px;
-//     height: 2px;
-//     background-color: orange;
-//   }
-// `
 
 export const List = styled.ul`
   display: flex;
@@ -32,18 +23,24 @@ export const List = styled.ul`
   font-size: 24px;
 `;
 
-
 export const Item = styled.li`
   display: flex;
   align-items: center;
   gap: 12px;
 `;
 export const HightImgWrap = styled.div`
-  @media (min-width: 500px) {
-    min-height: 330px;
-  }
-  @media (min-width: ${theme.breakpoint.xl}) {
-    width: 600px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2);
+  grid-column-gap: 0px;
+  grid-row-gap: 24px;
+
+  font-size: 20px;
+  @media (min-width: ${theme.breakpoint.md}) {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 24px;
+    grid-row-gap: 0px;
   }
 `;
 
@@ -58,19 +55,47 @@ export const HightImg = styled.img`
 `;
 
 export const LowerImgWrap = styled.div`
-  @media (min-width: 500px) {
-    min-height: 330px;
-  }
-  @media (min-width: ${theme.breakpoint.xl}) {
-    width: 600px;
+  position: relative;
+  right: 0;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2);
+  grid-column-gap: 0px;
+  grid-row-gap: 24px;
+
+  font-size: 20px;
+  @media (min-width: ${theme.breakpoint.md}) {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 24px;
+    grid-row-gap: 0px;
   }
 `;
+
 export const LowerImg = styled.img`
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-@media (min-width: 500px) {
-  width: 350px;
-  position: absolute;
-  bottom: 50px;
-  right: 10%; 
-}
+  @media (min-width: 500px) {
+    width: 350px;
+    bottom: 50px;
+    right: 10%;
+  }
+`;
+
+export const JoinWrapper = styled.div`
+  text-align: center;
+  :hover {
+    background-color: ${theme.color.button_light_hover};
+  }
+`;
+
+export const ThirdTitle = styled.h3`
+  font-size: 32px;
+  color: ${theme.color.button_light_hover};
+`;
+
+export const Wrap = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 `;

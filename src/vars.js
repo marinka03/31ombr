@@ -6,11 +6,10 @@ export const theme = {
 
       weed: "#6B633B",
       text: "#F5F5F5",
-      alligator: "#3C3C05",
       dark: "#151a1a",
       light_summer: "#f5eaca",
       summer: "#F2B807",
-      sapphire: "#0452b9"
+      dark_green: "#112825"
     },
     border: {
       oranage: "1px solid #E44848",

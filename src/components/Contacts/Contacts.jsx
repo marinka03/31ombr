@@ -3,11 +3,16 @@ import { FaInstagram } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa";
 import { FaPhoneFlip } from "react-icons/fa6";
 import { IoLogoTiktok } from "react-icons/io5";
-import { Section, Nav, Title, LinkTel, LinkNavigation } from "./Contacts.style";
+import { IoMdMail } from "react-icons/io";
+import { Section, Nav, Title, LinkSpecial, LinkNavigation } from "./Contacts.style";
 
 function Contacts() {
   const Callto = ({ phone, children }) => {
-    return <LinkTel href={`tel:${phone}`}>{children}</LinkTel>;
+    return <LinkSpecial href={`tel:${phone}`}>{children}</LinkSpecial>;
+  };
+
+  const Mailto = ({ mail, children }) => {
+    return <LinkSpecial href={`mailto:${mail}`}>{children}</LinkSpecial>;
   };
   return (
     <Section id="Contacts">
@@ -40,6 +45,11 @@ function Contacts() {
           />
           <span>TikTok</span>
         </LinkNavigation>
+
+        <Mailto mail={"31ombr@post.mil.gov.ua"}>
+          <IoMdMail />
+          <span>31ombr@post.mil.gov.ua</span>
+        </Mailto>
       </Nav>
     </Section>
   );

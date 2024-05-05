@@ -33,12 +33,7 @@ export const List = styled.ul`
     grid-column-gap: 24px;
   }
 `;
-export const JoinWrapper = styled.div`
-  text-align: center;
-  :hover {
-    background-color: ${theme.color.button_light_hover};
-  }
-`;
+
 export const Title = styled.h2`
   font-size: 45px;
   margin-bottom: 50px;

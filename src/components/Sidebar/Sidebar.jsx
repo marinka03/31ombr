@@ -10,17 +10,20 @@ import {
 } from "./Sidebar.style";
 import Join from "../Join/Join";
 import { Img } from "react-image";
-import logo from "../../assets/mainLogo.svg"
+import logo from "../../assets/mainLogo.svg";
 import { Link } from "react-router-dom";
 
 function Sidebar({ handleClickClose }) {
   return (
-    <Menu>
+    <Menu id="backdrop">
       <div className="container">
         <MenuContent>
           <CloseIcon size={40} onClick={handleClickClose} />
           <Link to={"/"} onClick={handleClickClose}>
-            <Img src={logo} style={{ width: "110px", height: "116px", margin: "0 auto" }} />
+            <Img
+              src={logo}
+              style={{ width: "110px", height: "116px", margin: "0 auto" }}
+            />
           </Link>
           <ContentWrap>
             <nav>

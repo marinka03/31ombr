@@ -11,6 +11,7 @@ export const Hd = styled.header`
   background-color: #151a1a;
   position: fixed;
   z-index: 2;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 `;
 
 export const LogoWrap = styled.div`
