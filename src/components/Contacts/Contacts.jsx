@@ -4,7 +4,13 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaPhoneFlip } from "react-icons/fa6";
 import { IoLogoTiktok } from "react-icons/io5";
 import { IoMdMail } from "react-icons/io";
-import { Section, Nav, Title, LinkSpecial, LinkNavigation } from "./Contacts.style";
+import {
+  Section,
+  Nav,
+  Title,
+  LinkSpecial,
+  LinkNavigation,
+} from "./Contacts.style";
 
 function Contacts() {
   const Callto = ({ phone, children }) => {

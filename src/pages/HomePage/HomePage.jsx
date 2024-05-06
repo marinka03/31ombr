@@ -8,6 +8,7 @@ import ourValues from "../../ourValues.json";
 import Vacancy from "../../components/Vacancy/Vacancy";
 import Contacts from "../../components/Contacts";
 import vacancyData from "../../vacancy.json";
+import Gallery from "../../components/Gallery/Gallery";
 
 function HomePage() {
   return (
@@ -16,6 +17,7 @@ function HomePage() {
       <AboutUs aboutUsData={aboutUsData} />
       <OurValues ourValuesData={ourValues} />
       <Vacancy vacancyData={vacancyData} />
+      <Gallery/>
       <Contacts />
       <Footer />
     </>
