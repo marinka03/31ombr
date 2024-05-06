@@ -1,22 +1,31 @@
 {
   "files": {
-    "main.css": "/31ombr/static/css/main.d69466c5.css",
-    "main.js": "/31ombr/static/js/main.8ee3cad7.js",
+    "main.css": "/31ombr/static/css/main.cff27d70.css",
+    "main.js": "/31ombr/static/js/main.5b68099c.js",
     "static/js/453.44ea9529.chunk.js": "/31ombr/static/js/453.44ea9529.chunk.js",
+    "static/media/look_out.jpg": "/31ombr/static/media/look_out.c0f0718dfb6d4a93e009.jpg",
+    "static/media/landing_of_soldiers.jpg": "/31ombr/static/media/landing_of_soldiers.710009ce97f307355eac.jpg",
+    "static/media/shotgun.jpg": "/31ombr/static/media/shotgun.e2fda1252452ff760ec1.jpg",
+    "static/media/disguised_car.jpg": "/31ombr/static/media/disguised_car.9d7ea3cc1d4958f0d1d0.jpg",
+    "static/media/strong-wirfire.jpg": "/31ombr/static/media/strong-wirfire.3fd7bb712023f4234b89.jpg",
+    "static/media/kulish.jpg": "/31ombr/static/media/kulish.bbc33b1b7e7691af11ef.jpg",
+    "static/media/shot_with_fire.jpg": "/31ombr/static/media/shot_with_fire.ce3a2497435d18f30ccd.jpg",
     "static/media/soldiers.jpg": "/31ombr/static/media/soldiers.104e5b16beb68b237e1b.jpg",
     "static/media/dron.jpg": "/31ombr/static/media/dron.147a06b0686d0a72646f.jpg",
     "static/media/warfire-flowers.jpg": "/31ombr/static/media/warfire-flowers.b459347965c35f093819.jpg",
+    "static/media/repair_of_equipment.jpg": "/31ombr/static/media/repair_of_equipment.a9170b7eb10c76f58184.jpg",
     "static/media/bmwithflag.jpg": "/31ombr/static/media/bmwithflag.ec066d2d575477bc7119.jpg",
     "static/media/fire-sparks.jpg": "/31ombr/static/media/fire-sparks.4ba76bb99b0938804e27.jpg",
     "static/media/green_smoke_background.jpg": "/31ombr/static/media/green_smoke_background.9e1f9faa60996e06cd0e.jpg",
+    "static/media/guy_takes_shot.jpg": "/31ombr/static/media/guy_takes_shot.b44853d7c4448e8cc209.jpg",
     "static/media/mainLogo.svg": "/31ombr/static/media/mainLogo.99d2975518179f57e61709f3e05964c3.svg",
     "index.html": "/31ombr/index.html",
-    "main.d69466c5.css.map": "/31ombr/static/css/main.d69466c5.css.map",
-    "main.8ee3cad7.js.map": "/31ombr/static/js/main.8ee3cad7.js.map",
+    "main.cff27d70.css.map": "/31ombr/static/css/main.cff27d70.css.map",
+    "main.5b68099c.js.map": "/31ombr/static/js/main.5b68099c.js.map",
     "453.44ea9529.chunk.js.map": "/31ombr/static/js/453.44ea9529.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d69466c5.css",
-    "static/js/main.8ee3cad7.js"
+    "static/css/main.cff27d70.css",
+    "static/js/main.5b68099c.js"
   ]
 }
